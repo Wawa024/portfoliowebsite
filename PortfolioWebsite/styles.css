@@ -1,0 +1,100 @@
+/*header&nav*/
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(purple);
+    z-index: var(12);
+    transition: background-color .4s, box-shadow .4s;
+}
+
+.nav{
+    position: relative;
+    height: var(50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+    color: var(rgb(2, 1, 1));
+    font-weight: var(font-weight bold);
+    transition: color .4s;
+}
+
+.nav__toggle,
+.nav__close{
+    display: inline-flex;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.nav__toggle{
+    color: var(white);
+    transition: color .4s;
+}
+
+.nav__close{
+    color: var(black);
+}
+ 
+@media screem and (max-width: 1150px){
+    .nav__menu{
+        position: fixed;
+        top: -100%;
+        left: 0;
+        background-color: var(black);
+        width: 100%;
+        box-shadow: 0 12px 24px var(white);
+        padding-block: 5rem 4rem;
+        transition: top .4s;
+    }
+}
+
+.nav__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    text-align: center;
+}
+
+.nav__link{
+    color: black;
+    font-weight: var(font-weight semi bold);
+    transition: color .4s;
+}
+
+.nav__link:hover{
+    color: var(purple);
+}
+
+.nav__close{
+    position: absolute;
+    top: 1.15rem;
+    right: 1.5rem'
+}
+
+.showMenu{
+    top: 0;
+
+}
+
+.button{
+    display: incline-flex;
+    justify-content: center;
+    background-color: var(rgb(197, 64, 197));
+    color: var(white);
+    font-weight: var(font-weight semi bold);
+    padding: 1rem 2rem;
+    transition: background-color .4s, box-shadow .4s;
+}
+
+.button:hover{
+    background-color: var(rgb(165, 24, 59));
+    box-shadow: 0 8px 24px hsla(var(hue), 90%, 30%, .3);
+}
+
+
+

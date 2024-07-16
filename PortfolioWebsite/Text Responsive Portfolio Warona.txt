@@ -1,0 +1,20 @@
+.nav__logo
+Warona
+
+.nav__Link
+Home- About Me - Portfolio - Contact Me
+
+.home__name
+Warona Tsukudu
+
+.home__profession
+Software Developer
+
+.home__social-nav__link 
+https://github.com/Wawa024
+https://www.linkedin.com/in/warona-tsukudu/
+
+.home__button
+Download CV
+
+
